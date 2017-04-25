@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>Registration Form | Thankyou</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+<script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
+<script src="js/admin.js" type="text/javascript" ></script>  
+
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">	  
+	   
+</head>
+<body>
+<div id="wrapper">  
+  <header>
+    <div id="logos">
+      <!--<h1>Your Logo Here</h1>-->
+      <nav><a href="Login.html">SignOut </a><span id="spn">|</span><a href="admin.html"> User List</a></nav>
+    </div>
+  </header>
+<div id="main">
+<div id="content">
+
+<form name="return_form" id="return_form" accept-charset="utf-8">
+      <fieldset>
+        <div class="formLayout">
+		<h2>Welcome Admin!</h2>
+          <div class="formLayout_thanks">
+			<div><label for="FirstName">and your details are</label></div>
+			<div><p id="adminid">Username :  </p></div>    
+			<div><br /><br /><br /><button type="button" id="new_reg_button" class="button">Create User</button></div>
+			
+			<div id = "dialog-6">
+				<table id="diaTable">
+					<tr>
+						<td><label for="UserId">User Id: <span>*</span></label></td>
+						<td><input type="text" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" name="userid" id="user_id" required="required" placeholder="User Id" /></td>
+					</tr>
+					<tr>
+						<td><label for="UserName">User Name: <span>*</span></label></td>
+						<td><input type="text" maxlength="30" oninput="this.value=this.value.replace(/[^a-z], /[^A-Z], '');" name="username" id="user_name" required="required" placeholder="User Name" /></td>
+					</tr>
+					<tr>
+						<td><label for="DOJ">Date of Joining: <span>*</span></label></td>
+						<td><input type="Date" onfocus="blur()" onclick="blur()" name="DOJ" id="doj" required="required" placeholder="DD/MM/YY" /></td>
+					</tr>
+					<tr>
+						<td><label for="DOB">Date of Birth: <span>*</span></label></td>
+						<td><input type="Date" onfocus="blur()" onclick="blur()" name="DOB" id="dob" required="required" placeholder="DD/MM/YY" /></td>
+					</tr>
+					<tr>
+						<td><label for="Department">Department: <span>*</span></label></td>
+						<td><select name="depart" id="depart">
+							<option value="" selected="selected">Select an option</option>
+							<option value="Programming">Programming</option>
+							<option value="testing">testing</option>
+							<option value="accounts">accounts</option>
+							<option value="management">management</option>
+							<option value="HR">HR</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="Add1">Address Line1: <span>*</span></label></td>
+						<td><input type="text" maxlength="30" name="Add1" id="add1" required="required" placeholder="Address Lin1" /></td>
+					</tr>
+					<tr>
+						<td><label for="Add2">Address Line2: <span>*</span></label></td>
+						<td><input type="text" maxlength="30" name="Add2" id="add2" required="required" placeholder="Address Lin2" /></td>
+					</tr>
+					<tr>
+						<td><label for="Phone">Mobile No: <span>*</span></label></td>
+						<td><input type="text" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');" name="Phone" id="phone" required="required" placeholder="Mobile No" /></td>
+					</tr>
+					<tr>
+						<td><label for="City">City: <span>*</span></label></td>
+						<td><select name="city" id="city">
+							<option value="" selected="selected">Select an option</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Salem">Salem</option>
+							<option value="Madurai">Madurai</option>
+							<option value="Trichy">Trichy</option>                
+							</select>
+						</td>
+					</tr>
+				</table>
+			</div>
+      		
+        </div>
+        </div>
+
+    </fieldset>
+    </form>
+	
+	
+    </div>
+</div>
+</div>
+
+</body>
+</html>
