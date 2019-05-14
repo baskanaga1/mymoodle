@@ -1,307 +1,190 @@
 {
-  "Insplot": "040002229209",
-  "Inspoper": null,
-  "NavRecordResultsReturn": null,
-  "NavRecordResultsCharResults": [
+  "Nav": [
     {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0010",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Aspect/Odor",
-      "charType": "02",
-      "formula": "",
-      "meansUnit": "",
-      "quantitative": {
+      "fieldType": "TextView",
+      "fieldName": "Employee Contact Details",
+      "fieldValue": "",
+      "limits": {
         "lowerLimit": null,
         "upperLimit": null
       },
-      "qualitative": [
-        {
-          "codeGroup": "APP/REJ",
-          "code": "APP",
-          "codeTxt": "Approve",
-          "codeGroupTxt": "Approve/Reject",
-          "codeValue": "A"
-        },
-        {
-          "codeGroup": "APP/REJ",
-          "code": "REJ",
-          "codeTxt": "Reject",
-          "codeGroupTxt": "Approve/Reject",
-          "codeValue": "R"
-        }
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
       ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0020",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Cup profile_5",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "EA",
-      "quantitative": {
-        "lowerLimit": "                     1",
-        "upperLimit": "                     5"
+	{
+      "fieldType": "EditBox",
+      "fieldName": "Name",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": "1",
+        "upperLimit": "10"
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0030",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Cup score_60",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "EA",
-      "quantitative": {
-        "lowerLimit": "                     5",
-        "upperLimit": "                    60"
+	{
+      "fieldType": "EditBox",
+      "fieldName": "Position",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": "1",
+        "upperLimit": "50"
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0040",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Number of cups_120",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "EA",
-      "quantitative": {
-        "lowerLimit": "                     1",
-        "upperLimit": "                   120"
+	{
+      "fieldType": "EditBox",
+      "fieldName": "Address",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": "1",
+        "upperLimit": "50"
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0050",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Cups defects_120",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "EA",
-      "quantitative": {
-        "lowerLimit": "                     0",
-        "upperLimit": "                   120"
+	{
+      "fieldType": "EditBox",
+      "fieldName": "Email",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": "1",
+        "upperLimit": "50"
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0060",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Moisture_15",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                  10.0",
-        "upperLimit": "                  15.0"
+	{
+      "fieldType": "EditBox",
+      "fieldName": "Phone No",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": "1",
+        "upperLimit": "10"
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0070",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Primary defects_1",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                   1.0"
+	{
+      "fieldType": "TextView",
+      "fieldName": "Choose Your Gender",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": null,
+        "upperLimit": null
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0080",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Gravity defects_2",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                   2.0"
+	{
+      "fieldType": "Radio",
+      "fieldName": "",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": null,
+        "upperLimit": null
       },
-      "qualitative": []
+      "dropdownlist": [
+	  
+        
+      ],
+	  "multilist": [
+        {
+		"fieldText":"Male",
+		"fieldValue":"M"
+		},
+		{
+		"fieldText":"Female",
+		"fieldValue":"F"
+		}
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0090",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Secondary defects_9",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                   9.0"
+	{
+      "fieldType": "TextView",
+      "fieldName": "Employee Status",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": null,
+        "upperLimit": null
       },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0100",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Total defects_12",
-      "charType": "01",
-      "formula": "C070+C080+C090",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                  12.0"
+	{
+      "fieldType": "CheckBox",
+      "fieldName": "",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": null,
+        "upperLimit": null
       },
-      "qualitative": []
+      "dropdownlist": [
+	    
+      ],
+	  "multilist": [
+	  {
+		"fieldText":"Full Time",
+		"fieldValue":"F"
+	  },
+	  {
+		"fieldText":"Part Time",
+		"fieldValue":"P"
+	  },
+	  {
+		"fieldText":"Casual",
+		"fieldValue":"C"
+	  }
+        
+      ]
     },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0110",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "Foreign matter_1",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                   1.0"
+	{
+      "fieldType": "Button",
+      "fieldName": "Submit",
+      "fieldValue": "",
+      "limits": {
+        "lowerLimit": null,
+        "upperLimit": null
       },
-      "qualitative": []
-    },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0120",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "SC 17_100",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                 100.0"
-      },
-      "qualitative": []
-    },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0130",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "SC 16_100",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                 100.0"
-      },
-      "qualitative": []
-    },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0140",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "SC 15_30",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                  30.0"
-      },
-      "qualitative": []
-    },
-    {
-      "Insplot": "040002229209",
-      "Inspoper": "0010",
-      "Inspchar": "0150",
-      "Closed": "X",
-      "MeanValue": null,
-      "Code1": null,
-      "CodeGrp1": null,
-      "codeValue": null,
-      "charDesc": "SC 14_10",
-      "charType": "01",
-      "formula": "",
-      "meansUnit": "%",
-      "quantitative": {
-        "lowerLimit": "                   0.0",
-        "upperLimit": "                  10.0"
-      },
-      "qualitative": []
+      "dropdownlist": [
+        
+      ],
+	  "multilist": [
+        
+      ]
     }
+	
   ]
 }
